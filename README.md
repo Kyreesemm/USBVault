@@ -3,8 +3,8 @@
 <a href="LICENSE"><img alt="License" src="https://img.shields.io/github/license/mashape/apistatus.svg"></a>
 [![.NET](https://img.shields.io/badge/.NET-8.0-blueviolet)](https://dotnet.microsoft.com/)
 [![Platform](https://img.shields.io/badge/Windows-10/11+-0078D6?logo=windows)](https://www.microsoft.com/windows)
-[![Telegram](https://img.shields.io/badge/Telegram-@username-26A5E4?logo=telegram)](https://t.me/kyreesemm)
-[![TikTok](https://img.shields.io/badge/TikTok-@username-000000?logo=tiktok)](https://tiktok.com/@kyreesemm)
+[![Telegram](https://img.shields.io/badge/Telegram-@kyreesemm-26A5E4?logo=telegram)](https://t.me/kyreesemm)
+[![TikTok](https://img.shields.io/badge/TikTok-@kyreesemm-000000?logo=tiktok)](https://tiktok.com/@kyreesemm)
 
 ![USB Vault Logo](USBVault_logo.jpg)
 
