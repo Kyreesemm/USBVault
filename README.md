@@ -7,7 +7,7 @@
 [![TikTok](https://img.shields.io/badge/TikTok-@username-000000?logo=tiktok)](https://tiktok.com/@your_tiktok)
 [![Support](https://img.shields.io/badge/Donate-Buy%20Me%20a%20Coffee-FFDD00?logo=buymeacoffee)](https://www.buymeacoffee.com/your_profile)
 
-![USB Vault Logo](logo.png) <!-- Замените logo.png на ваше изображение -->
+![USB Vault Logo](USBVault_logo.jpg) <!-- Замените logo.png на ваше изображение -->
 
 ## 📌 О проекте
 **USB Vault** - это безопасное хранилище заметок с использованием USB-флешки в качестве ключа шифрования. Ваши данные защищены AES-256 и доступны только при подключенном USB-носителе.
