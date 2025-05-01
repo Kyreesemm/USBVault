@@ -3,11 +3,10 @@
 <a href="LICENSE"><img alt="License" src="https://img.shields.io/github/license/mashape/apistatus.svg"></a>
 [![.NET](https://img.shields.io/badge/.NET-8.0-blueviolet)](https://dotnet.microsoft.com/)
 [![Platform](https://img.shields.io/badge/Windows-10/11+-0078D6?logo=windows)](https://www.microsoft.com/windows)
-[![Telegram](https://img.shields.io/badge/Telegram-@username-26A5E4?logo=telegram)](https://t.me/your_tg)
-[![TikTok](https://img.shields.io/badge/TikTok-@username-000000?logo=tiktok)](https://tiktok.com/@your_tiktok)
-[![Support](https://img.shields.io/badge/Donate-Buy%20Me%20a%20Coffee-FFDD00?logo=buymeacoffee)](https://www.buymeacoffee.com/your_profile)
+[![Telegram](https://img.shields.io/badge/Telegram-@username-26A5E4?logo=telegram)](https://t.me/kyreesemm)
+[![TikTok](https://img.shields.io/badge/TikTok-@username-000000?logo=tiktok)](https://tiktok.com/@kyreesemm)
 
-![USB Vault Logo](USBVault_logo.jpg) <!-- Замените logo.png на ваше изображение -->
+![USB Vault Logo](USBVault_logo.jpg)
 
 ## 📌 О проекте
 **USB Vault** - это безопасное хранилище заметок с использованием USB-флешки в качестве ключа шифрования. Ваши данные защищены AES-256 и доступны только при подключенном USB-носителе.
@@ -20,9 +19,9 @@
 - Полная анонимность - не требует интернета и регистрации
 
 ## 🚀 Быстрый старт
-1. Скачайте последнюю версию из [раздела Releases](https://github.com/yourusername/USBVault/releases)
+1. Скачайте последнюю версию из [раздела Releases](https://github.com/Kyreesemm/USBVault/releases)
 2. Распакуйте архив в любую папку
-3. Запустите `USBVault.exe`
+3. Запустите `USB Vault.exe`
 4. Создайте новый USB-ключ (программа проведет вас через процесс)
 
 ## 🛠 Сборка из исходников
@@ -32,8 +31,61 @@
 - .NET 8 SDK x64
 
 **Инструкция**:
+- Загрузите исходный код проекта:
 ```bash
 git clone https://github.com/yourusername/USBVault.git
+```
+- Перейдите в папку с исходным кодом:
+```bash
 cd USBVault
+```
+- Соберите проект в релиз версию:
+```bash
 dotnet build --configuration Release
 ```
+- Собранные файлы будут в bin\Release\net8.0\win-x64\publish
+
+## 📝 Как пользоваться
+1. При первом запуске создайте новый USB-ключ
+2. Вставьте флешку и выберите ее букву
+3. После создания ключа вы можете:
+- Добавлять/просматривать заметки
+- Удалять записи
+- Создавать новые хранилища на других флешках
+**❗ Важно: Не теряйте USB-ключ! Без него данные восстановить невозможно.**
+
+📦 Формат релизов
+Рекомендую включать в релиз:
+
+Отдельный ZIP-архив с:
+
+Исполняемым файлом (.exe)
+
+Всеми необходимыми .dll
+
+Файлом README.txt с краткой инструкцией
+
+Архив с исходным кодом (для разработчиков)
+
+## 🤝 Участие в проекте
+- Мы приветствуем любые вклады:
+- Сообщения об ошибках через Issues
+- Pull requests с улучшениями
+- Идеи для новых функций
+*Если вам нравится проект, поставьте ⭐ на GitHub!*
+
+## 📜 Лицензия
+Проект распространяется под лицензией MIT. Это означает:
+- Можно свободно использовать и модифицировать код
+- Обязательно указание авторства
+- Автор не несет ответственности за возможные проблемы
+
+## 📌 FAQ
+**Q:** Можно ли использовать одну флешку для нескольких хранилищ?
+**A:** Нет, каждая флешка создает независимое хранилище.
+
+**Q:** Что делать, если я потерял флешку?
+**A:** К сожалению, данные восстановить невозможно. Все шифруется с привязкой к конкретному носителю.
+
+**Q:** Поддерживается ли Linux/Mac?
+**A:** Пока только Windows, но в планах есть кроссплатформенная версия.
